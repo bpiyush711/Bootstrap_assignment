@@ -1,0 +1,126 @@
+/*
+
+My Custom CSS
+==============
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #form-search{
+      width: 600px;
+   }
+   .navbar-brand{
+      padding: 0px;
+      margin: 0px;
+   }
+   #cart{
+      margin: 10px,10px,10px,10px;
+      padding: 10px,10px,10px,10px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#carousel .item{
+   height: 600px;
+   width: 1200px;
+   padding-top: 158px
+}
+#slide1{
+   background: url("../../images/mobile_large.jpg") top center no-repeat;
+}
+#slide2{
+   background: url("../../images/123.jpg") top center no-repeat;
+}
+#slide3{
+   background: url("../../images/laptop_large.jpg") top center no-repeat;
+}
+
+
+#navbar-custom{
+   float:left;
+   position: relative;
+   width: 100%;
+}
+ #carousel{
+   clear:both;
+   top: 0px;
+   bottom:0;
+   width: 100%;
+ }
+.panel-image img{
+   height: 150px;
+   max-width: 240px;
+}
+
+.image_phone{
+   width: 50%;
+   height: 200px;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+
+footer{
+   background-color: white;
+   width: 100%;
+}
+li{
+   margin: 0px;
+}
+.unstyled{
+   list-style-type: none;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 500px) {
+#slide1{
+   background: url("../../images/mobile_small.jpg") top center no-repeat;
+}
+#slide2{
+   background: url("../../images/headphone_small.jpg") top center no-repeat;
+}
+#slide3{
+   background: url("../../images/laptop_small.jpg") top center no-repeat;
+}	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 780px) {
+   #slide1{
+   background: url("../../images/mobile_med.jpg") top center no-repeat;
+}
+#slide2{
+   background: url("../../images/headphone_med.jpg") top center no-repeat;
+}
+#slide3{
+   background: url("../../images/laptop_med.jpg") top center no-repeat;
+}  
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   #slide1{
+   background: url("../../images/mobile_large.jpg") top center no-repeat;
+}
+#slide2{
+   background: url("../../images/123.jpg") top center no-repeat;
+}
+#slide3{
+   background: url("../../images/laptop_large.jpg") top center no-repeat;
+}
+
+	
+}
