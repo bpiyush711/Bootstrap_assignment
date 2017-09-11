@@ -9,7 +9,9 @@ My Custom CSS
    Navbar
    -------------------------------------- */
    #form-search{
-      width: 600px;
+      margin-left: 10px;
+      margin-right: 60px;
+      width: 300px;
    }
    .navbar-brand{
       padding: 0px;
@@ -26,11 +28,13 @@ My Custom CSS
    -------------------------------------- */
 
 #carousel .item{
-   height: 600px;
-   width: 1200px;
-   padding-top: 158px
+  
+   padding-top: 600px;
+   margin-top: 120px;
+   margin-bottom: 0px;
+   
 }
-#slide1{
+/*#slide1{
    background: url("../../images/mobile_large.jpg") top center no-repeat;
 }
 #slide2{
@@ -38,52 +42,87 @@ My Custom CSS
 }
 #slide3{
    background: url("../../images/laptop_large.jpg") top center no-repeat;
-}
+}*/
+
 
 
 #navbar-custom{
    float:left;
-   position: relative;
+   
    width: 100%;
 }
- #carousel{
-   clear:both;
-   top: 0px;
-   bottom:0;
-   width: 100%;
- }
+
+
 .panel-image img{
    height: 150px;
    max-width: 240px;
 }
 
-.image_phone{
-   width: 50%;
-   height: 200px;
+#app{
+display: block;
+padding-left: 30px;
+margin: auto;
+height: 230px;
+width: 350px
 }
+
+#modal{
+   padding: 20px;
+   margin: 20px;
+
+}
+
+#iphone{
+    display: block;
+   margin: auto;
+   height: 150px;
+   width: 100px;
+   padding-bottom: 5px;
+
+}
+
+#headphone{
+    display: block;
+   margin: auto;
+   height: 150px;
+   width: 120px;
+   padding-bottom: 5px;
+
+}
+
+.panel-image{
+   display: block;
+   margin: auto;
+   height: 150px;
+   width: 150px;
+   padding: 10px;
+}
+
 
 /* --------------------------------------
    Footer
    -------------------------------------- */
 
-footer{
-   background-color: white;
+#footer{
+   background: #333;
+   color: #eee;
+   font-size: 15px;
+   font-family: arial;
+   padding: 20px;
    width: 100%;
 }
-li{
-   margin: 0px;
-}
-.unstyled{
-   list-style-type: none;
-}
-
+ ul.unstyled{
+   list-style: none;
+   padding: 0px;
+ }
 
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
-@media (max-width: 500px) {
+
+@media (min-width: 0px) {
 #slide1{
    background: url("../../images/mobile_small.jpg") top center no-repeat;
 }
@@ -92,11 +131,13 @@ li{
 }
 #slide3{
    background: url("../../images/laptop_small.jpg") top center no-repeat;
-}	
+}  
+
+
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 780px) {
+@media (min-width: 768px) {
    #slide1{
    background: url("../../images/mobile_med.jpg") top center no-repeat;
 }
@@ -105,13 +146,13 @@ li{
 }
 #slide3{
    background: url("../../images/laptop_med.jpg") top center no-repeat;
-}  
+} 
 
-	
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
+
+@media (min-width: 1024px) {
    #slide1{
    background: url("../../images/mobile_large.jpg") top center no-repeat;
 }
@@ -122,5 +163,4 @@ li{
    background: url("../../images/laptop_large.jpg") top center no-repeat;
 }
 
-	
 }
